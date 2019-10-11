@@ -4,8 +4,6 @@ Este projeto foi construída para que testas alguns conhecimentos em JS/Node.js 
 ## Pré requisitos de execução
 Para executar este projeto é necessário ter instalado o [NodeJS](https://nodejs.org) e o seu gerenciador de pacotes [NPM](https://www.npmjs.com). Neste projeto foi utilizado, respectivamente as versões 10.16.0 e 6.11.3.
 
-```
-
 ## Utilizando
 #### Passo a passo para utilizar este projeto
 Clonar o projeto na sua máquina:
