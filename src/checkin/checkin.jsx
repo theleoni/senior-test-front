@@ -137,7 +137,7 @@ class Checkin extends Component {
 								<tbody>
 									{ this.props.lista.filter(item => item.ativo).map(item => {
 
-										let hospede = this.props.listaHospede.filter(hospede => hospede.id === item.idHospede)[0];
+										let hospede = this.props.listaHospede.filter(hospede => hospede.id === item.idHospede)[0] || {};
 										return (
 										<tr key={item.id}>
 											<td>{hospede.nome}</td>

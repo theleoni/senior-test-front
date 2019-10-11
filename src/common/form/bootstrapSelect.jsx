@@ -6,6 +6,7 @@ export default props => {
 		<Form.Group controlId={props.name}>
 			<Form.Label>{props.label}</Form.Label>
 			<Form.Control {...props.input} as="select" name={props.name} placeholder={props.placeholder} required={props.required || false} disabled={props.disabled || false}>
+				<option key='0' value='0'></option>
 				{ props.list.map(item => <option key={item.id} value={item.id}>{item.valor}</option> ) }
 			</Form.Control>
 		</Form.Group>
